@@ -7,22 +7,19 @@ const db = {
       'task': 'check json-server',
       'priority': 0, // от 0 до 3
       'desc': 'check carefully',
-      'done': true,
+      'status': 'done', // done, won't do, undefined
       'list': 'inbox',
       'createdAt': 0, // время в unix формате
-      'doneAt': 0, // время в unix формате, присутствует только у выполненных задач
-      'dueTo': 0 // время в unix формате, когда задача должна быть выполнена
+      'statusAt': 0, // время в unix формате, присутствует только у задач со статусом
+      'dueTo': 0, // время в unix формате, когда задача должна быть выполнена
+      'removed': false
     },
     {
       'id': 2,
       'task': 'check lists',
-      'priority': 0, // от 0 до 3
-      'desc': 'check carefully',
-      'done': true,
-      'list': 'inbox',
+      'list': 'todo',
       'createdAt': 0, // время в unix формате
-      'doneAt': 0, // время в unix формате, присутствует только у выполненных задач
-      'dueTo': 0 // время в unix формате, когда задача должна быть выполнена
+      'removed': false
     }
   ],
   'lists': ['todo', 'inbox']
