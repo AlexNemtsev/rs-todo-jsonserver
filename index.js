@@ -5,11 +5,11 @@ const db = {
     {
       'id': 1,
       'task': 'check json-server',
-      'priority': 0, // от 0 до 3
+      'priority': 0,
       'desc': 'check carefully',
-      'status': 'done', // done, won't do, undefined
+      'status': 'done',
       'list': 'inbox',
-      'createdAt': 0, // время в unix формате
+      'createdAt': 0,
       'statusAt': 0, // время в unix формате, присутствует только у задач со статусом
       'dueTo': 0, // время в unix формате, когда задача должна быть выполнена
       'removed': false
@@ -18,7 +18,7 @@ const db = {
       'id': 2,
       'task': 'check lists',
       'list': 'todo',
-      'createdAt': 0, // время в unix формате
+      'createdAt': 0,
       'removed': false
     }
   ],
