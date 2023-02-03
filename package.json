@@ -1,0 +1,22 @@
+{
+  "name": "rs-todo-jsonserver",
+  "version": "1.0.0",
+  "description": "json server for todos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexNemtsev/rs-todo-jsonserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexNemtsev/rs-todo-jsonserver/issues"
+  },
+  "homepage": "https://github.com/AlexNemtsev/rs-todo-jsonserver#readme",
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  }
+}
