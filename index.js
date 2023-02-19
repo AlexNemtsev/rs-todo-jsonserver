@@ -6,7 +6,7 @@ const db = {
       'id': 1,
       'task': 'check json-server',
       'priority': 0,
-      'desc': 'check carefully',
+      'desc': '# Hello\n## World!',
       'status': 'done',
       'list': 'inbox',
       'createdAt': 0,
@@ -22,7 +22,17 @@ const db = {
       'removed': false
     }
   ],
-  'lists': ['todo', 'inbox']
+  'lists': [
+    {
+      id: 1,
+      name: 'inbox',
+    },
+    {
+      id: 2,
+      name: 'todo',
+      color: '#ffffff'
+    }
+  ]
 }
 
 const server = jsonServer.create();
