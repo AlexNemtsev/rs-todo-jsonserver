@@ -19,8 +19,32 @@ const db = {
       'task': 'check lists',
       'list': 'todo',
       'createdAt': 0,
+      'desc': 'Line one\nLine two',
       'removed': false
-    }
+    },
+    {
+      'id': 3,
+      'task': 'check code',
+      'list': 'todo',
+      'createdAt': 0,
+      'desc': '```javascript\nconst a = 1\nconst b = 2```',
+      'removed': false
+    },
+    {
+      'id': 4,
+      'task': 'check list',
+      'list': 'todo',
+      'createdAt': 0,
+      'desc': 'Some List:\n - [ ] one\n - [ ] two\n - [x] three\n',
+      'removed': false
+    },
+    {
+      'id': 5,
+      'task': 'empty desc',
+      'list': 'todo',
+      'createdAt': 0,
+      'removed': false
+    },
   ],
   'lists': [
     {
