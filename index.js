@@ -8,7 +8,7 @@ const db = {
       'priority': 0,
       'desc': '# Hello\n## World!',
       'status': 'done',
-      'list': 'inbox',
+      'listId': 1,
       'createdAt': 0,
       'statusAt': 0, // время в unix формате, присутствует только у задач со статусом
       'dueTo': 0, // время в unix формате, когда задача должна быть выполнена
@@ -17,7 +17,7 @@ const db = {
     {
       'id': 2,
       'task': 'check lists',
-      'list': 'todo',
+      'listId': 2,
       'createdAt': 0,
       'desc': 'Line one\nLine two',
       'removed': false
@@ -25,7 +25,7 @@ const db = {
     {
       'id': 3,
       'task': 'check code',
-      'list': 'todo',
+      'listId': 2,
       'createdAt': 0,
       'desc': '```javascript\nconst a = 1\nconst b = 2```',
       'removed': false
@@ -33,7 +33,7 @@ const db = {
     {
       'id': 4,
       'task': 'check list',
-      'list': 'todo',
+      'listId': 2,
       'createdAt': 0,
       'desc': 'Some List:\n - [ ] one\n - [ ] two\n - [x] three\n',
       'removed': false
@@ -41,7 +41,7 @@ const db = {
     {
       'id': 5,
       'task': 'empty desc',
-      'list': 'todo',
+      'listId': 2,
       'createdAt': 0,
       'removed': false
     },
