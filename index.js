@@ -17,6 +17,7 @@ const db = {
     {
       'id': 2,
       'task': 'check lists',
+      'priority': 1,
       'listId': 2,
       'createdAt': 0,
       'desc': 'Line one\nLine two',
@@ -24,23 +25,8 @@ const db = {
     },
     {
       'id': 3,
-      'task': 'check code',
-      'listId': 2,
-      'createdAt': 0,
-      'desc': '```javascript\nconst a = 1\nconst b = 2```',
-      'removed': false
-    },
-    {
-      'id': 4,
-      'task': 'check list',
-      'listId': 2,
-      'createdAt': 0,
-      'desc': 'Some List:\n - [ ] one\n - [ ] two\n - [x] three\n',
-      'removed': false
-    },
-    {
-      'id': 5,
       'task': 'empty desc',
+      'priority': 3,
       'listId': 2,
       'createdAt': 0,
       'removed': false
